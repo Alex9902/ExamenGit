@@ -20,7 +20,8 @@ public class ExamenGit {
                         String frase = sc.nextLine();
                         String[] palabras = frase.trim().split("\\s+");
                         int numeroDePalabras = palabras.length;
-
+                        System.out.println("La frase contiene " + numeroDePalabras + " palabras.");
+                        break;
                     case 3:
 
                     case 4:
