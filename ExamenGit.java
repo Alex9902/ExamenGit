@@ -18,6 +18,9 @@ public class ExamenGit {
                         String palabra1 = sc.nextLine();
                         System.out.print("Ingrese la segunda palabra: ");
                         String palabra2 = sc.nextLine();
+                        String resultado = palabra1 + palabra2;
+                        System.out.println("La concatenación de las palabras es: " + resultado);
+
                     case 2:
 
                     case 3:
