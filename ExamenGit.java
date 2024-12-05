@@ -41,6 +41,8 @@ public class ExamenGit {
                         }
                         System.out.println("La letra '" + letra + "' aparece " + contador + " veces en la frase.");
                     case 4:
+                        System.out.println("Saliendo del programa...");
+                        break;
 
                     default:
                 }
