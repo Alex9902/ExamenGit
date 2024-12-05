@@ -18,10 +18,12 @@ public class ExamenGit {
                     case 2:
 
                     case 3:
-
+                        System.out.print("Ingrese una frase: ");
+                        String frase = sc.nextLine();
+                        System.out.print("Ingrese la letra que desea contar: ");
+                        char letra = sc.next().charAt(0);
+                        int contador = 0;
                     case 4:
-
-                    case 5:
 
                     default:
                 }
