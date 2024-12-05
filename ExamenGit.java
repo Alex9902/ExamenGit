@@ -14,7 +14,10 @@ public class ExamenGit {
                 switch (opcion) {
 
                     case 1:
-
+                        System.out.print("Ingrese la primera palabra: ");
+                        String palabra1 = sc.nextLine();
+                        System.out.print("Ingrese la segunda palabra: ");
+                        String palabra2 = sc.nextLine();
                     case 2:
 
                     case 3:
