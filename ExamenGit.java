@@ -16,6 +16,10 @@ public class ExamenGit {
                     case 1:
 
                     case 2:
+                        System.out.print("Ingrese una frase: ");
+                        String frase = sc.nextLine();
+                        String[] palabras = frase.trim().split("\\s+");
+                        int numeroDePalabras = palabras.length;
 
                     case 3:
 
