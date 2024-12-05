@@ -23,6 +23,12 @@ public class ExamenGit {
                         System.out.print("Ingrese la letra que desea contar: ");
                         char letra = sc.next().charAt(0);
                         int contador = 0;
+                        for (int i = 0; i < frase.length(); i++) {
+                            if (frase.charAt(i) == letra) {
+                                contador++;
+                            }
+                        }
+                        System.out.println("La letra '" + letra + "' aparece " + contador + " veces en la frase.");
                     case 4:
 
                     default:
