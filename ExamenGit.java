@@ -20,9 +20,8 @@ public class ExamenGit {
                     case 3:
 
                     case 4:
-
-                    case 5:
-
+                        System.out.println("Saliendo del programa...");
+                        break;
                     default:
                 }
             }while (opcion!=4);
