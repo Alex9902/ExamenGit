@@ -22,7 +22,12 @@ public class ExamenGit {
                         System.out.println("La concatenación de las palabras es: " + resultado);
 
                     case 2:
-
+                        System.out.print("Ingrese una frase: ");
+                        String frase = sc.nextLine();
+                        String[] palabras = frase.trim().split("\\s+");
+                        int numeroDePalabras = palabras.length;
+                        System.out.println("La frase contiene " + numeroDePalabras + " palabras.");
+                        break;
                     case 3:
 
                     case 4:
